@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #004d00, #00cc44);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Centralização e espaçamento */
+.container {
+    text-align: center;
+}
+
+/* Logo */
+.logo {
+    max-width: 200px;
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Animação da logo */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Caixa de Login */
+.login-box {
+    background: linear-gradient(145deg, #003f00, #005f00);
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-box h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00ff99;
+    text-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99;
+}
+
+.login-box .form-control {
+    background: #002d00;
+    border: 1px solid #004d00;
+    color: #ffffff;
+}
+
+.login-box .form-control:focus {
+    background: #003800;
+    border-color: #00ff99;
+    box-shadow: 0 0 5px #00ff99;
+}
+
+.login-box .btn-primary {
+    background: linear-gradient(135deg, #00ff99, #00cc66);
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.login-box .btn-primary:hover {
+    background: linear-gradient(135deg, #00cc66, #00ff99);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.6);
+}
+
+/* Link futurista */
+a.link-light {
+    color: #00ff99;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a.link-light:hover {
+    color: #00cc66;
+}

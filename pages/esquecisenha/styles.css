@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #004d00, #00cc44);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Centralização da página */
+.container {
+    text-align: center;
+}
+
+/* Logo Flutuante */
+.logo {
+    max-width: 200px;
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Caixa de redefinição de senha */
+.reset-password-box {
+    background: linear-gradient(145deg, #003f00, #005f00);
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+}
+
+.reset-password-box h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00ff99;
+    text-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99;
+}
+
+.reset-password-box .form-control {
+    background: #002d00;
+    border: 1px solid #004d00;
+    color: #ffffff;
+}
+
+.reset-password-box .form-control:focus {
+    background: #003800;
+    border-color: #00ff99;
+    box-shadow: 0 0 5px #00ff99;
+}
+
+.reset-password-box .btn-primary {
+    background: linear-gradient(135deg, #00ff99, #00cc66);
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.reset-password-box .btn-primary:hover {
+    background: linear-gradient(135deg, #00cc66, #00ff99);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.6);
+}
