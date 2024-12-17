@@ -5,7 +5,7 @@ function validateLogin() {
         alert('Por favor, preencha todos os campos!');
         return false;
     }
-    window.location.href = '../produtos/produtos.html';
+    window.location.href = 'pages/produtos/produtos.html';
 }
 
 function validateEmail() {
@@ -15,5 +15,5 @@ function validateEmail() {
         return false;
     }
     alert(`Um link para redefinição foi enviado para: ${email}`);
-    window.location.href = '/home/index.html';
+    window.location.href = 'index.html';
 }
